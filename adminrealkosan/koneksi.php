@@ -4,7 +4,7 @@ $user="root";
 $pass="";
 $koneksi=@mysql_connect($host,$user,$pass);
 if(!$koneksi){
-	echo "Gagal koneksu=".mysql_error();
+	echo "Gagal koneksi=".mysql_error();
 	exit();
 }
 //memilih database
